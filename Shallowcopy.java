@@ -12,7 +12,7 @@ public static void main(String []args)
 {
 student s1=new student("August");
 System.out.println("Student Name:="+s1.sname);
-student s= new student();
+student s= new student("June");
 s=s1;
 System.out.println("\n Student name:="+s.sname);
 s.sname="June";
