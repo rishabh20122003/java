@@ -4,7 +4,7 @@ class Frequency
 public static void countFreq(int arr[], int n)
 {
 boolean visited[] = new boolean[n];
-Scanner.fill(visited, false);
+Arrays.fill(visited, false);
 
 for (int i = 0; i < n; i++) 
 {
